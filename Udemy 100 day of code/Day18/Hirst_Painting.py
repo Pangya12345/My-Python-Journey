@@ -10,7 +10,7 @@ timmy.shape("arrow")
 
 # Use color from Colorgram
 color_list = []
-colors = colorgram.extract('images.jpg', 10)
+colors = colorgram.extract('hirst.jpg', 10)
 for i in range(10):
     color_list.append((colors[i].rgb.r, colors[i].rgb.b, colors[i].rgb.g))
 
