@@ -11,7 +11,7 @@ timmy.shape("arrow")
 # Use color from Colorgram
 color_list = []
 
-
+# Extract the colour from the image
 colors = colorgram.extract('mix.webp', 10)
 
 for i in range(10):
@@ -29,6 +29,7 @@ set_position()
 # Set-up the while loop to make it repeat the process 
 count = 1
 while count <= 10:
+    
     # Set-up the for-loop to paint the dot with 10 dots for each row
     for i in range(10):
         rancolors = random.choice(color_list)
