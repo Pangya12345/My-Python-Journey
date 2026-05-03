@@ -1,1 +1,0 @@
-print("My mbti is intj")
