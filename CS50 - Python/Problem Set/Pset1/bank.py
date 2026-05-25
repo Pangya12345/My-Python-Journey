@@ -10,6 +10,6 @@ if test == "Hello" or test == "hello":
 elif test[0] == "h" or test[0] == "H":
   print("$20")
 
-# What to do if the condition does not match
+# What to do if the condition does not match 
 else:
   print("$100")
