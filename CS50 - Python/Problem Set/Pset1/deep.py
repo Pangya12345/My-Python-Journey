@@ -19,5 +19,6 @@ elif text.lower == forty or text.lower == forty_next:
 elif text.lower().title() == forty.title() or text.lower().title() == forty_next.title():
   print("Yes")
 
+# What to do if the condition does not match
 else:
   print("No")
