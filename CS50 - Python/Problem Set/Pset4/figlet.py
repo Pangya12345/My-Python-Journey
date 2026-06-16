@@ -22,7 +22,7 @@ elif len(sys.argv) == 3:
     elif sys.argv[2] not in fronts:
         sys.exit("Invalid usage")
     
-    else:
+    elif sys.argv[1] == "-f" or sys.argv[1] == "--font" and sys.argv[2] in fronts:
         print(pyfiglet.figlet_format(user_input, font=sys.argv[2]))
     
 
