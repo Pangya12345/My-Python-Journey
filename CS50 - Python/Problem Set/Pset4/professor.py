@@ -46,3 +46,4 @@ while len(question_list) == 10:
   corn = question_list.pop()
   gun = input(corn )
   
+  # make question_list contain 10 question with randomd numbers and given digit --------> continue?????
