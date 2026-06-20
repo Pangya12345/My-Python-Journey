@@ -56,13 +56,6 @@ while len(question_list) > 0:
             mama_1 = int(corn[0] + corn[1] + corn[2])
             mama_2 = int(corn[6] + corn[7] + corn[8])
 
-<<<<<<< HEAD
-while len(question_list) == 10:
-  corn = question_list.pop()
-  gun = input(corn )
-  
-  # make question_list contain 10 question with randomd numbers and given digit --------> continue?????
-=======
         result = mama_1 + mama_2
         return result
 
@@ -83,4 +76,3 @@ while len(question_list) == 10:
         score += 1
 
 print(f"Score: {score}")
->>>>>>> 29e370f6df5695a0ecd75add8c1eb0fe90b60ecc
