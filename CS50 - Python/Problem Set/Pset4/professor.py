@@ -9,7 +9,7 @@ while True:
         real_level = int(level)
         break
     else:
-        continue
+        continueS
 
 number_1 = "0"
 number_2 = "9"
@@ -75,4 +75,9 @@ while len(question_list) > 0:
     else:
         score += 1
 
+<<<<<<< HEAD
 print(f"Score: {score}")
+=======
+print(f"Score: {score}")
+
+>>>>>>> 9d3e7895ad4e46e737bed5de64e1bc521fea937d
